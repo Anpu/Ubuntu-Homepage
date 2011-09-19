@@ -152,7 +152,7 @@ input.go { background: #dd4814; background-image: -webkit-gradient(linear, 0% 0%
 input.go:active, input.go:active:hover { background: #ae3910; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ae3910), color-stop(100%, #dd4814)); background-image: -moz-linear-gradient(top, #ae3910 0%, #dd4814 100%); background-image: linear-gradient(top, #ae3910 0%, #dd4814 100%); }
 input.go:hover { background: #ed6637; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ed6637), color-stop(100%, #dd4814)); background-image: -moz-linear-gradient(top, #ed6637 0%, #dd4814 100%); background-image: linear-gradient(top, #ed6637 0%, #dd4814 100%); }
 
-#ubuntulogo { position: absolute; bottom: 40%; right: 30px; width: 25%; }
+#ubuntulogo { position: absolute; bottom: 40%; right: 30px; width: 25%; margin-right:20px; }
 
 #help { padding-top: 30px; padding-left: 120px; color: #333333; min-height: 100%; }
 #help ul { padding-left: 1em; }

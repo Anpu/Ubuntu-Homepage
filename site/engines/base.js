@@ -16,7 +16,7 @@
 
 var default_languages = {
 	'EN': 'en',
-	'RS': 'sr'
+	'SR': 'sr'
 }
 
 /*	GOOGLE
@@ -24,7 +24,7 @@ var default_languages = {
 
 eng.google = {
 	pageTitle: "Google",
-	logo: "google-white.png",
+	logo: "google.png",
 	places: {
 		'Web'    : ["http://www.google.com/search?q=%query%&hl=%lang%", false],
 		'Images' : ["http://images.google.com/images?q=%query%&hl=%lang%", false],
@@ -40,7 +40,7 @@ eng.google = {
 
 eng.wikipedia = {
 	pageTitle: "Viki RS",
-	logo: "wikipedia-white.png",
+	logo: "viki.png",
 	places: {
 		'Go to Article' : ["http://wiki.ubuntu-rs.org/index.php?title=Posebno:Search&search=%query%&go=Idi", false],
 		'Search'        : ["http://wiki.ubuntu-rs.org/index.php?title=Posebno:Search&search=%query%&fulltext=Search", false],
@@ -51,11 +51,11 @@ eng.wikipedia = {
 /*	Forum
 	----------------------------------------------------- */
 
-eng.youtube = {
+eng.forum = {
 	pageTitle: "Forum RS",
 	logo: "forum.png",
 	places: {
-		'Pretraga' : ["http://forum.ubuntu-rs.org/search.php?action=search&keywords=%query%", false]
+		'Forum Search' : ["http://forum.ubuntu-rs.org/search.php?action=search&keywords=%query%", false]
 	}
 };
 
@@ -63,10 +63,10 @@ eng.youtube = {
 /*	Sajt
 	----------------------------------------------------- */
 
-eng.twitter = {
+eng.sajt = {
 	pageTitle: "Sajt RS",
 	logo: "sajt.png",
 	places: {
-		'Search Twitter' : ["http://www.ubuntu-rs.org/?s=%query%", false]
+		'Search Site' : ["http://www.ubuntu-rs.org/?s=%query%", false]
 	}
 };
