@@ -16,7 +16,7 @@
 
 var default_languages = {
 	'EN': 'en',
-	'SR': 'sr'
+	'RS': 'sr'
 }
 
 /*	GOOGLE
